@@ -1,0 +1,57 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/App.tsx",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/node": "^12.12.47",
+    "@types/react-dom": "^16.9.8",
+    "expo": "^38.0.8",
+    "expo-cli": "^3.21.13",
+    "g": "^2.0.1",
+    "react": "^16.13.1",
+    "react-art": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "^0.62.2",
+    "react-native-web": "^0.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start-expo": "expo start",
+    "start-web": "expo start:web",
+    "android": "expo android",
+    "ios": "expo ios",
+    "build:ios": "expo build:ios",
+    "build:android": "expo build:android"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/expo": "^33.0.1",
+    "@types/jest": "^24.9.1",
+    "@types/react": "^16.9.41",
+    "@types/react-native": "^0.62.16",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-preset-expo": "^8.2.3",
+    "typescript": "^3.9.6"
+  }
+}

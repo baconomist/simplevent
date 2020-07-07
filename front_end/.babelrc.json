@@ -1,0 +1,32 @@
+{
+  "presets": [
+    "babel-preset-expo",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx",
+          ".android.js",
+          ".android.tsx",
+          ".ios.js",
+          ".ios.tsx"
+        ],
+        "root": [
+          "./src"
+        ]
+      }
+    ],
+    [
+      "@babel/plugin-transform-spread",
+      {
+        "loose": true
+      }
+    ]
+  ]
+}
