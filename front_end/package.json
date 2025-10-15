@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "@types/node": "^12.12.47",
     "@types/react-dom": "^16.9.8",
-    "expo": "^38.0.8",
+    "expo": "^54.0.13",
     "expo-cli": "^3.21.13",
     "g": "^2.0.1",
     "react": "^16.13.1",
