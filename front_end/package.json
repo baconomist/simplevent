@@ -10,14 +10,14 @@
     "@types/node": "^12.12.47",
     "@types/react-dom": "^16.9.8",
     "expo": "^38.0.8",
-    "expo-cli": "^3.21.13",
+    "expo-cli": "^6.3.12",
     "g": "^2.0.1",
     "react": "^16.13.1",
     "react-art": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-native": "^0.62.2",
     "react-native-web": "^0.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start-expo": "expo start",
